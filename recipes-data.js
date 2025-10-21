@@ -1202,9 +1202,349 @@ const recipeDatabase = {
                         "Lässt sich gut längere Zeit in Blechdosen aufbewahren"
                     ],
                     "tags": ["gitter", "konfituere", "blechkuchen", "streusel"]
+                }, 
+                    "biskuit-boeden": {
+                    "id": "biskuit-boeden",
+                    "name": "Biskuit Böden",
+                    "kategorie": "kuchen-torten",
+                    "unterkategorie": "biskuit",
+                    "bild": "images/rezepte/biskuit-boeden.jpg",
+                    "quelle": "Familienrezept",
+                    "quantitative_angaben": {
+                        "portionen": "1 Boden 26cm",
+                        "backtemperatur": "175-200",
+                        "backtemperatur_einheit": "°C",
+                        "backzeit": "40-50",
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Grundrezept für Biskuitböden in verschiedenen Größen",
+                    "geschichte": "Basierrezept für viele Torten und Desserts",
+                    "schwierigkeitsgrad": "mittel",
+                    "zutaten": [
+                        { "name": "Feiner Zucker", "menge": 150, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Mehl 405", "menge": 100, "einheit": "g", "typ": "mehl" },
+                        { "name": "Stärkemehl", "menge": 50, "einheit": "g", "typ": "mehl" },
+                        { "name": "Eiweiß", "menge": 6, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Eigelb", "menge": 6, "einheit": "Stück", "typ": "eier" }
+                    ],
+                    "zubereitung": [
+                        "Gut gekühltes Eiweiß sehr steif schlagen",
+                        "Zucker nach und nach einarbeiten",
+                        "Verquirfte Eigelbe und gesiebte Mehl-Stärke Mischung über den Eischnee sieben",
+                        "Vorsichtig unterheben",
+                        "Teig sofort in gebutterte Form füllen",
+                        "Im vorgeheizten Ofen bei 175-200°C 40-50 Minuten backen"
+                    ],
+                    "anmerkungen": [
+                        "Und hier eine Tabelle für kleinere Teigmengen:",
+                        "<table class='recipe-table'><thead><tr><th>Eiweiß</th><th>Eigelb</th><th>Zucker</th><th>Mehl</th><th>Stärkemehl</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>25g</td><td>16g</td><td>8g</td></tr><tr><td>2</td><td>2</td><td>50g</td><td>32g</td><td>16g</td></tr><tr><td>3</td><td>3</td><td>75g</td><td>48g</td><td>24g</td></tr><tr><td>4</td><td>4</td><td>100g</td><td>64g</td><td>32g</td></tr><tr><td>5</td><td>5</td><td>125g</td><td>80g</td><td>40g</td></tr></tbody></table>"
+                    ],
+                    "tags": ["biskuit", "grundrezept", "tortenboden", "einfach"]
+                },
+                                "kirsch-plotzer": {
+                    "id": "kirsch-plotzer",
+                    "name": "Kirsch Plotzer",
+                    "kategorie": "kuchen-torten",
+                    "unterkategorie": "blechkuchen",
+                    "bild": "images/rezepte/kirsch-plotzer.jpg",
+                    "quelle": "Professionelles Bäckerei Rezept",
+                    "quantitative_angaben": {
+                        "portionen": "1 Springform 28cm",
+                        "backtemperatur": "180",
+                        "backtemperatur_einheit": "°C",
+                        "backzeit": "ca. 30",
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Professioneller Kirschkuchen mit Haselnüssen",
+                    "geschichte": "Dieses Rezept ist von einem Profi-Bäcker und verwendet deshalb die etwas ungewöhnliche Mengenangabe von Gramm für Eiweiß und Eigelb.",
+                    "schwierigkeitsgrad": "mittel",
+                    "zutaten": [
+                        { "name": "Butter", "menge": 100, "einheit": "g", "typ": "fett" },
+                        { "name": "Eigelb", "menge": 120, "einheit": "g", "typ": "eier" },
+                        { "name": "Zimt", "menge": 2, "einheit": "g", "typ": "gewuerz" },
+                        { "name": "Kardamon", "menge": 1, "einheit": "g", "typ": "gewuerz" },
+                        { "name": "Eiweiß", "menge": 180, "einheit": "ml", "typ": "eier" },
+                        { "name": "Zucker", "menge": 170, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Mehl", "menge": 10, "einheit": "g", "typ": "mehl" },
+                        { "name": "Haselnüsse", "menge": 200, "einheit": "g", "typ": "nuesse" },
+                        { "name": "Sauerkirschen", "menge": 1100, "einheit": "g", "typ": "obst" }
+                    ],
+                    "zubereitung": [
+                        "Eiweiß und Zucker zu steifem Schnee aufschlagen",
+                        "Nun die leicht erwärmte Butter in eine Kessel aufschlagen und nach und nach Eigelb, Gewürze und Haselnüsse einarbeiten",
+                        "Eiweiß unterheben",
+                        "Kirschen unterheben",
+                        "Ofen auf 180 Grad vorheizen",
+                        "Teig in eine Springform (28cm) einfüllen. Kurz 'aufstoßen'",
+                        "Den Kirschenplotzer nach dem Auskühlen mit Puderzucker bestäuben"
+                    ],
+                    "anmerkungen": [
+                        "Mit den oben angegebenen 'üblichen' Mengenangaben kommt man gut hin.",
+                        "Entspricht etwa 6-7 Eigelb und 7 Eiweiß"
+                    ],
+                    "tags": ["kirschen", "haselnuesse", "blechkuchen", "professionell"]
+                },
+
+                "philadelphia-torte": {
+                    "id": "philadelphia-torte",
+                    "name": "Philadelphia Torte",
+                    "kategorie": "kuchen-torten", 
+                    "unterkategorie": "kaesekuchen",
+                    "bild": "images/rezepte/philadelphia-torte.jpg",
+                    "quelle": "Englischer Käsekuchen",
+                    "quantitative_angaben": {
+                        "portionen": "1 Springform 24cm",
+                        "backtemperatur": "140",
+                        "backtemperatur_einheit": "°C",
+                        "backzeit": "50",
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Leichter Käsekuchen nach englischer Art",
+                    "geschichte": "Ein herrlicher Käsekuchen, der nicht so schwer und üppig ist wie die meisten seiner 'Artgenossen'.",
+                    "schwierigkeitsgrad": "einfach",
+                    "zutaten": [
+                        { "name": "Zwieback", "menge": 12, "einheit": "Stück", "typ": "boden" },
+                        { "name": "Butter", "menge": 50, "einheit": "g", "typ": "fett" },
+                        { "name": "Zucker", "menge": 60, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Eier", "menge": 6, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Doppelrahm Frischkäse", "menge": 600, "einheit": "g", "typ": "kaese" },
+                        { "name": "Zucker", "menge": 150, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Saure Sahne", "menge": 100, "einheit": "g", "typ": "milchprodukt" },
+                        { "name": "Zitrone (Saft und Abrieb)", "menge": 1, "einheit": "Stück", "typ": "obst" },
+                        { "name": "Backpulver", "menge": 1, "einheit": "TL", "typ": "backmittel" },
+                        { "name": "Speisestärke", "menge": 4, "einheit": "EL", "typ": "mehl" }
+                    ],
+                    "zubereitung": [
+                        "Backofen auf 140° vorheizen",
+                        "Für den Boden die Zwieback zerbröseln und mit Zucker und Butter zu einer Bröselmasse verkneten. Mit dieser den Boden einer Backform (24cm Ø) auskleiden",
+                        "Eier in Gelb und Weiß trennen",
+                        "Mit dem Eigelb und allen anderen Zutaten eine Creme rühren",
+                        "Sehr steifen Eischnee unterziehen und die Masse auf den Boden geben",
+                        "Etwa 50 Minuten backen"
+                    ],
+                    "anmerkungen": [],
+                    "tags": ["kaesekuchen", "englisch", "leicht", "frischkaese"]
+                },
+
+                "portugiesischer-mandelkuchen": {
+                    "id": "portugiesischer-mandelkuchen", 
+                    "name": "Portugiesischer Mandelkuchen",
+                    "kategorie": "kuchen-torten",
+                    "unterkategorie": "mandelkuchen",
+                    "bild": "images/rezepte/portugiesischer-mandelkuchen.jpg",
+                    "quelle": "Faucinho Do Céu",
+                    "quantitative_angaben": {
+                        "portionen": "1 Kuchenform",
+                        "backtemperatur": "200", 
+                        "backtemperatur_einheit": "°C",
+                        "backzeit": "35",
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Himmlischer Mandelkuchen - 'Speck vom Himmel'",
+                    "geschichte": "Übersetzt heißt dieser Kuchen 'Speck von Himmel'. Das sagt eigentlich alles. Der Kuchen ist wahrhaft himmlisch und üppig ohne Ende.",
+                    "schwierigkeitsgrad": "mittel",
+                    "zutaten": [
+                        { "name": "Eigelb", "menge": 12, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Eiweiß", "menge": 1, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Zucker", "menge": 500, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Wasser", "menge": 2, "einheit": "dl", "typ": "fluessigkeit" },
+                        { "name": "Mandeln, gemahlen", "menge": 250, "einheit": "g", "typ": "nuesse" },
+                        { "name": "Mehl", "menge": 15, "einheit": "g", "typ": "mehl" },
+                        { "name": "Butter", "menge": 50, "einheit": "g", "typ": "fett" }
+                    ],
+                    "zubereitung": [
+                        "Ofen auf 200° vorheizen",
+                        "Die Eigelb und das Eiweiß schaumig schlagen", 
+                        "Die weiche Butter mit dem Mehl verkneten und beiseite stellen",
+                        "Den Zucker in einem Töpfchen mit 2 dl Wasser auflösen, sodass ein klarer Sirup entsteht",
+                        "Hierzu erst die Eimasse, dann die Mandeln einrühren",
+                        "Auf kleiner Flamme verrühren und die Mehl-Butter einrühren, bis die Creme langsam eindickt",
+                        "In eine Kuchenform füllen und glatt streichen",
+                        "35 Minuten backen"
+                    ],
+                    "anmerkungen": [
+                        "Nach dem vollständigen Auskühlen mit Puderzucker bestreuen",
+                        "Viel kann der Normalbürger davon nicht essen - sehr üppig!",
+                        "Portugiesische Süßspeisen bestehen aus viel Zucker und noch mehr Eiern; oder umgekehrt."
+                    ],
+                    "tags": ["portugiesisch", "mandeln", "ueppig", "traditionell"]
+                },
+                                "portugiesische-mandeltarte": {
+                    "id": "portugiesische-mandeltarte",
+                    "name": "Portugiesische Mandeltarte", 
+                    "kategorie": "kuchen-torten",
+                    "unterkategorie": "tarte",
+                    "bild": "images/rezepte/portugiesische-mandeltarte.jpg",
+                    "quelle": "Tarte de Amêndoa",
+                    "quantitative_angaben": {
+                        "portionen": "1 Tarteform 28cm",
+                        "backtemperatur": "180",
+                        "backtemperatur_einheit": "°C", 
+                        "backzeit_boden": "15",
+                        "backzeit_gesamt": "15",
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Salzig-knackige Mandeltarte",
+                    "geschichte": "Ein unheimlich salzig-knackige Tarte. Sie sollte rasch verzehren werden.",
+                    "schwierigkeitsgrad": "mittel",
+                    "zutaten": [
+                        { "name": "Zucker", "menge": 150, "einheit": "g", "typ": "suessungsmittel", "teil": "boden" },
+                        { "name": "Mehl", "menge": 180, "einheit": "g", "typ": "mehl", "teil": "boden" },
+                        { "name": "Butter, flüssig", "menge": 90, "einheit": "g", "typ": "fett", "teil": "boden" },
+                        { "name": "Eier", "menge": 2, "einheit": "Stück", "typ": "eier", "teil": "boden" },
+                        { "name": "Milch", "menge": 2, "einheit": "EL", "typ": "milchprodukt", "teil": "boden" },
+                        { "name": "Salz", "menge": 1, "einheit": "Prise", "typ": "gewuerz", "teil": "boden" },
+                        { "name": "Butter, weich", "menge": 100, "einheit": "g", "typ": "fett", "teil": "belag" },
+                        { "name": "Zucker", "menge": 100, "einheit": "g", "typ": "suessungsmittel", "teil": "belag" },
+                        { "name": "Mandelblättchen", "menge": 150, "einheit": "g", "typ": "nuesse", "teil": "belag" },
+                        { "name": "Milch", "menge": 6, "einheit": "EL", "typ": "milchprodukt", "teil": "belag" }
+                    ],
+                    "zubereitung": [
+                        "Ofen auf 180° vorheizen",
+                        "Boden aus den angegebenen Zutaten mehrere Minuten rühren. In Kuchenform (28cm Ø) füllen und 15 Minuten goldgelb backen. Auskühlen lassen",
+                        "Für den Belag alle Zutaten in einem Topf schmelzen und kurz aufkochen",
+                        "Auf den Boden gießen",
+                        "Bei 200° Oberhitze etwa 15 Minuten karamellisieren"
+                    ],
+                    "anmerkungen": [],
+                    "tags": ["portugiesisch", "mandeln", "tarte", "karamell"]
+                },
+
+                "schoko-gewuerz-schnitten": {
+                    "id": "schoko-gewuerz-schnitten",
+                    "name": "Schoko-Gewürz Schnitten", 
+                    "kategorie": "kuchen-torten",
+                    "unterkategorie": "blechkuchen",
+                    "bild": "images/rezepte/schoko-gewuerz-schnitten.jpg",
+                    "quelle": "Schneller lockerer Blechkuchen",
+                    "quantitative_angaben": {
+                        "portionen": "1 Backblech",
+                        "backtemperatur": "180",
+                        "backtemperatur_einheit": "°C",
+                        "backzeit": "20", 
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Schneller Gewürz-Blechkuchen mit Schokolade",
+                    "geschichte": "Das Rezept ist für ein handelsübliches Backblech ausgelegt.",
+                    "schwierigkeitsgrad": "einfach",
+                    "zutaten": [
+                        { "name": "Eier", "menge": 4, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Feiner Zucker", "menge": 300, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Butter", "menge": 250, "einheit": "g", "typ": "fett" },
+                        { "name": "Vanille Zucker", "menge": 1, "einheit": "Päckchen", "typ": "gewuerz" },
+                        { "name": "Backpulver", "menge": 1, "einheit": "Päckchen", "typ": "backmittel" },
+                        { "name": "Lebkuchengewürz", "menge": 1, "einheit": "Päckchen", "typ": "gewuerz" },
+                        { "name": "Schokoladenpudding", "menge": 1, "einheit": "Beutel", "typ": "pulver" },
+                        { "name": "Mehl", "menge": 250, "einheit": "g", "typ": "mehl" },
+                        { "name": "Milch", "menge": 125, "einheit": "ml", "typ": "milchprodukt" },
+                        { "name": "Rum", "menge": 2, "einheit": "EL", "typ": "alkohol" }
+                    ],
+                    "zubereitung": [
+                        "Butter und Zucker aufschlagen",
+                        "Eier hinzufügen - Weiterrühren", 
+                        "Restliche Zutaten klumpenfrei einarbeiten",
+                        "Ofen auf 180 Grad vorheizen",
+                        "Die Masse 2 cm dick auf ein Backblech aufstreichen",
+                        "Etwa 20 Minuten backen",
+                        "Teigplatte heraus nehmen und noch warm mit Aprikosenkonfitüre einstreichen",
+                        "Nach dem Erkalten mit herben Schokoladenguss überziehen",
+                        "Nach dem Erkalten in Würfel, Schnitten oder Rechtecke schneiden"
+                    ],
+                    "anmerkungen": [
+                        "Ich nehme immer die halbe Menge und einen Backrahmen auf 21x25 cm eingestellt.",
+                        "Die 'kleine' Portion reicht locker für ein 'Teedündchen' mit 6 Personen.",
+                        "Wer mag, kann Schlagrahm dazu reichen."
+                    ],
+                    "tags": ["blechkuchen", "gewuerze", "schokolade", "schnell"]
+                },
+
+                "zitronen-tarte": {
+                    "id": "zitronen-tarte",
+                    "name": "Zitronen Tarte",
+                    "kategorie": "kuchen-torten",
+                    "unterkategorie": "tarte", 
+                    "bild": "images/rezepte/zitronen-tarte.jpg",
+                    "quelle": "Fruchtig - Frisch",
+                    "quantitative_angaben": {
+                        "portionen": "1 Tarteform 20cm",
+                        "backtemperatur": "190",
+                        "backtemperatur_einheit": "°C",
+                        "backzeit_boden": "25-30", 
+                        "backzeit_einheit": "Minuten"
+                    },
+                    "beschreibung": "Erfrischende Zitronentarte - Sommer pur",
+                    "geschichte": "Diese Tarte ist Sommer pur. Vorsicht! Kleine Stücke schneiden - sehr sättigend!",
+                    "schwierigkeitsgrad": "mittel",
+                    "zutaten": [
+                        { "name": "Eigelb", "menge": 3, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Eier", "menge": 3, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Zucker", "menge": 180, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Zitronen Saft", "menge": 180, "einheit": "ml", "typ": "obst" },
+                        { "name": "Zitronenabrieb", "menge": 2, "einheit": "EL", "typ": "gewuerz" },
+                        { "name": "Butter", "menge": 185, "einheit": "g", "typ": "fett" },
+                        { "name": "Mürbeteig", "menge": 1, "einheit": "Grundrezept", "typ": "teig" }
+                    ],
+                    "zubereitung": [
+                        "Tarteform mit dem Teig auslegen. Ränder 1 cm Hoch. Teig samt Form in den Tiefkühler stellen",
+                        "Backofen auf 190° vorheizen",
+                        "Füllung zubereiten: In einem Topf alle Zutaten mischen und auf dem Herd auf kleiner Hitze erwärmen",
+                        "Vorsichtig mit dem Schneebesen aufschlagen bis die Masse dick wird",
+                        "Masse auskühlen und mittlerweile Boden ca. 25-30 Minuten Backen", 
+                        "Masse auf den Boden geben und für 2-3 Stunden in den Kühlschrank stellen"
+                    ],
+                    "anmerkungen": [
+                        "Wir nehmen eine Tarte Form mit 20 cm Ø und ein Drittel der Füllung. Das reicht locker für vier Personen.",
+                        "Wenn Sie keine Erfahrung mit dem Aufschlagen von warmen Einassen haben, verwenden Sie ein Wasserbad, damit Sie nicht körnig 'Rührei' im Topf haben."
+                    ],
+                    "tags": ["zitrone", "tarte", "erfrischend", "sommer", "sauer"]
                 }
             }
-        }
+        }, 
+        "desserts": {
+            "name": "Desserts & Nachspeisen",
+            "beschreibung": "Süße Abschlüsse und leichte Nachspeisen",
+            "rezepte": {
+                "bayerische-creme": {
+                    "id": "bayerische-creme",
+                    "name": "Bayerische Creme",
+                    "kategorie": "desserts",
+                    "unterkategorie": "cremes",
+                    "bild": "images/rezepte/bayerische-creme.jpg",
+                    "quelle": "Alfons Schuhbeck",
+                    "quantitative_angaben": {
+                        "portionen": "4-6 Personen",
+                        "kuehlzeit": "2-12",
+                        "kuehlzeit_einheit": "Stunden"
+                    },
+                    "beschreibung": "Leichte Variante der klassischen Bayerischen Creme",
+                    "geschichte": "Diese Creme ist leichter und einfacher zu machen als die klassische Bayrische Creme.",
+                    "schwierigkeitsgrad": "einfach",
+                    "zutaten": [
+                        { "name": "Gelatine", "menge": 2, "einheit": "Blatt", "typ": "bindemittel" },
+                        { "name": "Vanille Schoten", "menge": 2, "einheit": "Stück", "typ": "gewuerz" },
+                        { "name": "Eigelb", "menge": 3, "einheit": "Stück", "typ": "eier" },
+                        { "name": "Zucker", "menge": 70, "einheit": "g", "typ": "suessungsmittel" },
+                        { "name": "Kirschwasser", "menge": 1, "einheit": "EL", "typ": "alkohol", "optional": true },
+                        { "name": "Schlagrahm", "menge": 300, "einheit": "ml", "typ": "milchprodukt" }
+                    ],
+                    "zubereitung": [
+                        "Gelatine in kaltem Wasser einweichen",
+                        "Vanille Schoten der Länge nach halbieren und Mark auskratzen",
+                        "Eigelb, Zucker und Mark zu einer dicken hellen Masse aufschlagen",
+                        "Ausgedrückte Gelatine in einem kleinen Topf mit Kirschwasser bei kleiner Hitze auflösen",
+                        "Rahm steif schlagen",
+                        "Etwas Schlagrahm mit Gelatine mischen und unter die Eicreme rühren",
+                        "Restliche Schlagsahne unter die Masse heben. Nicht feste rühren!",
+                        "In Portionsförmchen oder eine Schüssel füllen",
+                        "Mindestens 2 Stunden kalt stellen. Besser über Nacht"
+                    ],
+                    "anmerkungen": [
+                        "Zur Abwechslung können Sie statt Vanille auch Rum, Weinbrand oder einen aromatischen Likör verwenden.",
+                        "Oder Sie schichten die Creme mit Obst und gerösteten Nüssen in eine Schüssel.",
+                        "Zitat von A. Schuhbeck: 'Diese Creme ist leichter und einfacher zu machen als die klassische Bayrische Creme.'"
+                    ],
+                    "tags": ["creme", "vanille", "schuhbeck", "klassiker", "leicht"]
+                },
     }
 };
 
