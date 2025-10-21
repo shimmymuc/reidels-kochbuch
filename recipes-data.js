@@ -1499,52 +1499,52 @@ const recipeDatabase = {
                     "tags": ["zitrone", "tarte", "erfrischend", "sommer", "sauer"]
                 }
             }
-        }, 
-        "desserts": {
-            "name": "Desserts & Nachspeisen",
-            "beschreibung": "Süße Abschlüsse und leichte Nachspeisen",
-            "rezepte": {
-                "bayerische-creme": {
-                    "id": "bayerische-creme",
-                    "name": "Bayerische Creme",
-                    "kategorie": "desserts",
-                    "unterkategorie": "cremes",
-                    "bild": "images/rezepte/bayerische-creme.jpg",
-                    "quelle": "Alfons Schuhbeck",
-                    "quantitative_angaben": {
-                        "portionen": "4-6 Personen",
-                        "kuehlzeit": "2-12",
-                        "kuehlzeit_einheit": "Stunden"
-                    },
-                    "beschreibung": "Leichte Variante der klassischen Bayerischen Creme",
-                    "geschichte": "Diese Creme ist leichter und einfacher zu machen als die klassische Bayrische Creme.",
-                    "schwierigkeitsgrad": "einfach",
-                    "zutaten": [
-                        { "name": "Gelatine", "menge": 2, "einheit": "Blatt", "typ": "bindemittel" },
-                        { "name": "Vanille Schoten", "menge": 2, "einheit": "Stück", "typ": "gewuerz" },
-                        { "name": "Eigelb", "menge": 3, "einheit": "Stück", "typ": "eier" },
-                        { "name": "Zucker", "menge": 70, "einheit": "g", "typ": "suessungsmittel" },
-                        { "name": "Kirschwasser", "menge": 1, "einheit": "EL", "typ": "alkohol", "optional": true },
-                        { "name": "Schlagrahm", "menge": 300, "einheit": "ml", "typ": "milchprodukt" }
-                    ],
-                    "zubereitung": [
-                        "Gelatine in kaltem Wasser einweichen",
-                        "Vanille Schoten der Länge nach halbieren und Mark auskratzen",
-                        "Eigelb, Zucker und Mark zu einer dicken hellen Masse aufschlagen",
-                        "Ausgedrückte Gelatine in einem kleinen Topf mit Kirschwasser bei kleiner Hitze auflösen",
-                        "Rahm steif schlagen",
-                        "Etwas Schlagrahm mit Gelatine mischen und unter die Eicreme rühren",
-                        "Restliche Schlagsahne unter die Masse heben. Nicht feste rühren!",
-                        "In Portionsförmchen oder eine Schüssel füllen",
-                        "Mindestens 2 Stunden kalt stellen. Besser über Nacht"
-                    ],
-                    "anmerkungen": [
-                        "Zur Abwechslung können Sie statt Vanille auch Rum, Weinbrand oder einen aromatischen Likör verwenden.",
-                        "Oder Sie schichten die Creme mit Obst und gerösteten Nüssen in eine Schüssel.",
-                        "Zitat von A. Schuhbeck: 'Diese Creme ist leichter und einfacher zu machen als die klassische Bayrische Creme.'"
-                    ],
-                    "tags": ["creme", "vanille", "schuhbeck", "klassiker", "leicht"]
+        }, "desserts": {
+        "name": "Desserts & Nachspeisen", 
+        "beschreibung": "Süße Abschlüsse und leichte Nachspeisen",
+        "rezepte": {
+            "bayerische-creme": {
+                "id": "bayerische-creme",
+                "name": "Bayerische Creme",
+                "kategorie": "desserts",
+                "unterkategorie": "cremes",
+                "bild": "images/rezepte/bayerische-creme.jpg",
+                "quelle": "Alfons Schuhbeck",
+                "quantitative_angaben": {
+                    "portionen": "4-6 Personen",
+                    "kuehlzeit": "2-12",
+                    "kuehlzeit_einheit": "Stunden"
                 },
+                "beschreibung": "Leichte Variante der klassischen Bayerischen Creme",
+                "geschichte": "Diese Creme ist leichter und einfacher zu machen als die klassische Bayrische Creme.",
+                "schwierigkeitsgrad": "einfach",
+                "zutaten": [
+                    { "name": "Gelatine", "menge": 2, "einheit": "Blatt", "typ": "bindemittel" },
+                    { "name": "Vanille Schoten", "menge": 2, "einheit": "Stück", "typ": "gewuerz" },
+                    { "name": "Eigelb", "menge": 3, "einheit": "Stück", "typ": "eier" },
+                    { "name": "Zucker", "menge": 70, "einheit": "g", "typ": "suessungsmittel" },
+                    { "name": "Kirschwasser", "menge": 1, "einheit": "EL", "typ": "alkohol", "optional": true },
+                    { "name": "Schlagrahm", "menge": 300, "einheit": "ml", "typ": "milchprodukt" }
+                ],
+                "zubereitung": [
+                    "Gelatine in kaltem Wasser einweichen",
+                    "Vanille Schoten der Länge nach halbieren und Mark auskratzen",
+                    "Eigelb, Zucker und Mark zu einer dicken hellen Masse aufschlagen",
+                    "Ausgedrückte Gelatine in einem kleinen Topf mit Kirschwasser bei kleiner Hitze auflösen",
+                    "Rahm steif schlagen",
+                    "Etwas Schlagrahm mit Gelatine mischen und unter die Eicreme rühren",
+                    "Restliche Schlagsahne unter die Masse heben. Nicht feste rühren!",
+                    "In Portionsförmchen oder eine Schüssel füllen",
+                    "Mindestens 2 Stunden kalt stellen. Besser über Nacht"
+                ],
+                "anmerkungen": [
+                    "Zur Abwechslung können Sie statt Vanille auch Rum, Weinbrand oder einen aromatischen Likör verwenden.",
+                    "Oder Sie schichten die Creme mit Obst und gerösteten Nüssen in eine Schüssel.",
+                    "Zitat von A. Schuhbeck: 'Diese Creme ist leichter und einfacher zu machen als die klassische Bayrische Creme.'"
+                ],
+                "tags": ["creme", "vanille", "schuhbeck", "klassiker", "leicht"]
+            }
+        }
     }
 };
 
